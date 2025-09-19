@@ -1,0 +1,16 @@
+# Kindness Chain - Brief Project Description
+
+**Goal**: Create a global chain of kindness through AI-powered phone calls.
+
+**How it works**:
+1. AI calls random phone numbers worldwide
+2. Plays a kind message recorded by a previous human caller
+3. Asks if they want to record their own kind message for the next person
+4. If yes, person records a 30-60 second positive message
+5. AI validates the message content for appropriateness
+6. System calls the next random person and plays this new recording
+7. Later, AI calls back participants to share how their message impacted others
+
+**Core Experience**: Real human voices spreading authentic kindness globally, one call at a time.
+
+**Tech Stack**: Vapi AI + Twilio for calls, human voice recordings (not AI synthesis), content moderation via speech-to-text + OpenAI.
